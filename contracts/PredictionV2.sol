@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at BscScan.com on 2021-08-24
-*/
-
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
@@ -684,9 +680,9 @@ pragma solidity ^0.8.0;
 pragma abicoder v2;
 
 /**
- * @title PancakePredictionV2
+ * @title SilverlinePredictionV2
  */
-contract PancakePredictionV2 is Ownable, Pausable, ReentrancyGuard {
+contract SilverlinePredictionV2 is Ownable, Pausable, ReentrancyGuard {
     using SafeERC20 for IERC20;
 
     AggregatorV3Interface public oracle;
